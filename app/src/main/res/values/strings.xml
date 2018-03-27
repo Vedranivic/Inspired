@@ -24,6 +24,9 @@
         During his career at Microsoft, Gates held the positions of chairman, CEO and chief
         software architect, while also being the largest individual shareholder until May
         2014.</string>
+    <string name="DescriptionTuring">An image of Alan Turing</string>
+    <string name="DescriptionJobs">An image of Steve Jobs</string>
+    <string name="DescriptionGates">An image of Bill Gates</string>
     <string-array name="quotesTuring">
         <item>“Sometimes it is the people no one can imagine anything of who do the things no one can imagine.”</item>
         <item>“We can only see a short distance ahead, but we can see plenty there that needs to be done.”</item>

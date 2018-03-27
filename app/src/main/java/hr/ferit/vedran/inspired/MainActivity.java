@@ -3,6 +3,7 @@ package hr.ferit.vedran.inspired;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -72,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     //funkcija za prikaz Toast poruke
     private void displayToastMessage(String Text) {
-        Toast T = Toast.makeText(MainActivity.this, Text, Toast.LENGTH_LONG+1);
+        Toast T = Toast.makeText(MainActivity.this, Text, Toast.LENGTH_LONG);
         T.show();
     }
 }
