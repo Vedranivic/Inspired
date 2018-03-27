@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="profile_height">100</dimen>
-    <dimen name="profile_width">100</dimen>
-    <dimen name="text_padding_title">10</dimen>
-    <dimen name="text_padding_text">10</dimen>
-    <dimen name="name_size">15</dimen>
-    <dimen name="layout_margin">5</dimen>
+    <dimen name="profile_height">100dp</dimen>
+    <dimen name="profile_width">100dp</dimen>
+    <dimen name="text_padding_title">10dp</dimen>
+    <dimen name="text_padding_text">10dp</dimen>
+    <dimen name="name_size">15sp</dimen>
+    <dimen name="layout_margin">5dp</dimen>
+    <dimen name="line_height">1dp</dimen>
 </resources>

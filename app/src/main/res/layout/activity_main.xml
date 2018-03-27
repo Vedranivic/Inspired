@@ -7,7 +7,8 @@
     android:layout_height="match_parent"
     tools:context="hr.ferit.vedran.inspired.MainActivity"
     android:background="@drawable/back_blue"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:weightSum="3">
 
     <LinearLayout
             android:layout_width="match_parent"
@@ -16,6 +17,7 @@
             android:layout_margin="@dimen/layout_margin"
             android:layout_weight="1">
         <ImageView
+            android:id="@+id/ivTuring"
             android:layout_width="@dimen/profile_width"
             android:layout_height="@dimen/profile_height"
             android:layout_margin="@dimen/layout_margin"
@@ -29,7 +31,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/text_padding_title"
+                android:paddingStart="@dimen/text_padding_title"
                 android:text="@string/turing"
                 android:textSize="@dimen/name_size"
                 android:textStyle="bold"
@@ -45,13 +47,15 @@
                 />
 
             <TextView
+                android:id="@+id/tvTuring"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/text_padding_text"
                 android:paddingTop="@dimen/text_padding_text"
                 android:text="@string/about_turing"
-                android:textSize="@dimen/name_size"
                 android:textColor="@color/colorText"
+                android:maxLines="@integer/maxTextLines"
+                android:scrollbars="vertical"
                 />
         </LinearLayout>
     </LinearLayout>
@@ -69,6 +73,7 @@
         android:layout_margin="@dimen/layout_margin"
         android:layout_weight="1">
         <ImageView
+            android:id="@+id/ivJobs"
             android:layout_width="@dimen/profile_width"
             android:layout_height="@dimen/profile_height"
             android:layout_margin="@dimen/layout_margin"
@@ -82,7 +87,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingLeft="@dimen/text_padding_title"
+                android:paddingStart="@dimen/text_padding_title"
+                android:paddingEnd="@dimen/text_padding_title"
                 android:text="@string/jobs"
                 android:textSize="@dimen/name_size"
                 android:textStyle="bold"
@@ -98,20 +104,22 @@
                 />
 
             <TextView
+                android:id="@+id/tvJobs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/text_padding_text"
                 android:paddingTop="@dimen/text_padding_text"
                 android:text="@string/about_jobs"
-                android:textSize="@dimen/name_size"
                 android:textColor="@color/colorText"
+                android:maxLines="@integer/maxTextLines"
+                android:scrollbars="vertical"
                 />
         </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="@dimen/line_height"
         android:background="@drawable/line">
     </LinearLayout>
 
@@ -122,6 +130,7 @@
         android:layout_margin="@dimen/layout_margin"
         android:layout_weight="1">
         <ImageView
+            android:id="@+id/ivGates"
             android:layout_width="@dimen/profile_width"
             android:layout_height="@dimen/profile_height"
             android:layout_margin="@dimen/layout_margin"
@@ -152,13 +161,16 @@
                 android:textStyle="italic" />
 
             <TextView
+                android:id="@+id/tvGates"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingLeft="@dimen/text_padding_text"
                 android:paddingTop="@dimen/text_padding_text"
                 android:text="@string/about_gates"
                 android:textColor="@color/colorText"
-                android:textSize="@dimen/name_size" />
+                android:maxLines="@integer/maxTextLines"
+                android:scrollbars="vertical"
+                />
         </LinearLayout>
     </LinearLayout>
 
@@ -167,7 +179,6 @@
         android:layout_height="1dp"
         android:background="@drawable/line">
     </LinearLayout>
-
 
 </LinearLayout>
 

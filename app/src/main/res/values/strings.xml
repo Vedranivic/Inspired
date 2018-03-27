@@ -6,8 +6,43 @@
     <string name="jobs_date">February 24 1955 – October 5, 2011</string>
     <string name="gates">Bill Gates</string>
     <string name="gates_date">October 28 1955 -</string>
-    <string name="about_jobs">Steven Paul Jobs was an American entrepreneur, business magnate, inventor, and industrial designer. He was the chairman, chief executive officer (CEO), and a co-founder of Apple Inc., CEO and majority shareholder of Pixar, a member of The Walt Disney Company\'s board of directors following its acquisition of Pixar, and the founder, chairman, and CEO of NeXT. Jobs and Apple co-founder Steve Wozniak are widely recognized as pioneers of the microcomputer revolution of the 1970s and 1980s.</string>
-    <string name="about_turing">Alan Mathison Turing was an English computer scientist, mathematician, logician, cryptanalyst, philosopher, and theoretical biologist. Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general purpose computer. Turing is widely considered to be the father of theoretical computer science and artificial intelligence.</string>
-    <string name="about_gates">William Henry Gates III is an American business magnate, investor, author, philanthropist, humanitarian, and principal founder of the Microsoft Corporation. During his career at Microsoft, Gates held the positions of chairman, CEO and chief software architect, while also being the largest individual shareholder until May 2014.</string>
-
+    <string name="about_jobs">Steven Paul Jobs was an American entrepreneur, business magnate,
+        inventor, and industrial designer. He was the chairman, chief executive officer (CEO),
+        and a co-founder of Apple Inc., CEO and majority shareholder of Pixar, a member of The
+        Walt Disney Company\'s board of directors following its acquisition of Pixar, and the
+        founder, chairman, and CEO of NeXT. Jobs and Apple co-founder Steve Wozniak are widely
+        recognized as pioneers of the microcomputer revolution of the 1970s and 1980s.</string>
+    <string name="about_turing">Alan Mathison Turing was an English computer scientist,
+        mathematician, logician, cryptanalyst, philosopher, and theoretical biologist.
+        Turing was highly influential in the development of theoretical computer science,
+        providing a formalisation of the concepts of algorithm and computation with the Turing
+        machine, which can be considered a model of a general purpose computer. Turing is widely
+        considered to be the father of theoretical computer science and artificial
+        intelligence.</string>
+    <string name="about_gates">William Henry Gates III is an American business magnate, investor,
+        author, philanthropist, humanitarian, and principal founder of the Microsoft Corporation.
+        During his career at Microsoft, Gates held the positions of chairman, CEO and chief
+        software architect, while also being the largest individual shareholder until May
+        2014.</string>
+    <string-array name="quotesTuring">
+        <item>“Sometimes it is the people no one can imagine anything of who do the things no one can imagine.”</item>
+        <item>“We can only see a short distance ahead, but we can see plenty there that needs to be done.”</item>
+        <item>“Those who can imagine anything, can create the impossible.”</item>
+        <item>“If a machine is expected to be infallible, it cannot also be intelligent.”</item>
+        <item>“Do you know why people like violence? It is because it feels good. Humans find violence deeply satisfying. But remove the satisfaction, and the act becomes hollow.”</item>
+    </string-array>
+    <string-array name="quotesJobs">
+        <item>"My favorite things in life don’t cost any money. It’s really clear that the most precious resource we all have is time."</item>
+        <item>“I’m as proud of many of the things we haven’t done as the things we have done. Innovation is saying no to a thousand things.”</item>
+        <item>“Have the courage to follow your heart and intuition. They somehow know what you truly want to become.”</item>
+        <item>“Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.”</item>
+        <item>“Quality is more important than quantity. One home run is much better than two doubles.”</item>
+    </string-array>
+    <string-array name="quotesGates">
+        <item>“Don’t compare yourself with anyone in this world…if you do so, you are insulting yourself.”</item>
+        <item>“I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.”</item>
+        <item>“Success is a lousy teacher. It seduces smart people into thinking they can’t lose.”</item>
+        <item>“If you are born poor it’s not your mistake, but if you die poor it’s your mistake.”</item>
+        <item>“It’s fine to celebrate success but it is more important to heed the lessons of failure.”</item>
+    </string-array>
 </resources>
