@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Inspired</string>
+    <string name="turing">Alan Turing</string>
+    <string name="turing_date">June 23 1912 – June 7 1954</string>
+    <string name="jobs">Steve Jobs</string>
+    <string name="jobs_date">February 24 1955 – October 5, 2011</string>
+    <string name="gates">Bill Gates</string>
+    <string name="gates_date">October 28 1955 -</string>
+    <string name="about_jobs">Steven Paul Jobs was an American entrepreneur, business magnate, inventor, and industrial designer. He was the chairman, chief executive officer (CEO), and a co-founder of Apple Inc., CEO and majority shareholder of Pixar, a member of The Walt Disney Company\'s board of directors following its acquisition of Pixar, and the founder, chairman, and CEO of NeXT. Jobs and Apple co-founder Steve Wozniak are widely recognized as pioneers of the microcomputer revolution of the 1970s and 1980s.</string>
+    <string name="about_turing">Alan Mathison Turing was an English computer scientist, mathematician, logician, cryptanalyst, philosopher, and theoretical biologist. Turing was highly influential in the development of theoretical computer science, providing a formalisation of the concepts of algorithm and computation with the Turing machine, which can be considered a model of a general purpose computer. Turing is widely considered to be the father of theoretical computer science and artificial intelligence.</string>
+    <string name="about_gates">William Henry Gates III is an American business magnate, investor, author, philanthropist, humanitarian, and principal founder of the Microsoft Corporation. During his career at Microsoft, Gates held the positions of chairman, CEO and chief software architect, while also being the largest individual shareholder until May 2014.</string>
+
+</resources>
